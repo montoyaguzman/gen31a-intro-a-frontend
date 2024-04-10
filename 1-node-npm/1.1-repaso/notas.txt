@@ -1,0 +1,6 @@
+Repos Montoya 
+
+Intro a la web: https://github.com/montoyaguzman/gen28-intro-a-la-web
+Intro a JS: https://github.com/montoyaguzman/gen28-intro-js
+Computer Science: https://github.com/montoyaguzman/gen28-computer-science
+JS Avanzado: https://github.com/montoyaguzman/gen28-js-avanzado
