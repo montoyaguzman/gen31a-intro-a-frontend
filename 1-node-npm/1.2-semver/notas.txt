@@ -1,0 +1,57 @@
+9
+10
+99
+100
+
+1.0.1
+10.20.14.1114355543 build version
+2.0.0-beta
+2.0.0-alpha
+
+
+Ejemplo 1
+
+    Boostrap
+        1.0.1
+            Correegir el carrusel de imagenes
+        1.0.2
+            Agregar nuevas caracteristicas al carrousel (margen y el no. imgs)
+        1.1.0
+            Quita la clase css "card" y le llama "cardsito" y ademas se va a usar con otro tipo de clases css
+        2.0.0
+
+    Colors
+    4.0.0
+        El fucsia no esta bien escrito aparece como fiusa, agregar 20 colores nuevos porque la empresa
+        expandio su paleta de colores y se van a eliminar 3 colores existentes porque producian efectos
+        sicoticos.
+    4.0.1 correcion
+    4.1.0 menor
+    5.0.0 nueva version
+
+Ejemlo 3
+5.4.1
+    correcion
+    5.4.2
+    correcion
+    5.4.3
+    nuevo compatible
+    5.5.0
+    correcion del codigo inicial
+    5.5.1
+
+Ejemplo 4: GTA (San andreas)
+    3.0.0
+     ??? no se ven los coches mustang, solo se una marca negra
+    3.0.1
+     ??? el personaje de Juanito no se puede seleccionar
+    3.0.2
+     ??? agregar inclusividad/diversidad juanitx
+    3.1.0
+    ...infinito
+    3.6.7
+        ?? la nueva temporada en linea no deja cobrar las recompensas
+    3.6.8
+
+Las personas que jugaban GTA ya se lo han terminado y el publico quiere ver
+escenarios, personajes y retos nuevos
