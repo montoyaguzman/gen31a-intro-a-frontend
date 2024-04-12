@@ -10,8 +10,13 @@ const songs = [
     { id: 4, name: 'Gasolina', artist: 'Daddy Yankee', year: 2002 },
 ];
 
-// url - endpoint getSongs
+// / regresar un saludo en html
 app.get('/', (req, res) => {
+    res.send('Hola devf!');
+});
+
+// /songs: lista canciones
+app.get('/songs', (req, res) => {
     res.json(songs);
 });
 
