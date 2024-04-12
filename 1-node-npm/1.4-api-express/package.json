@@ -4,11 +4,15 @@
   "description": "Mi api de canciones favoritas",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./index.js",
+    "dev": "node_modules/nodemon/bin/nodemon.js ./index.js"
   },
   "author": "montoyaguzman7",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
