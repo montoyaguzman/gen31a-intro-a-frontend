@@ -1,0 +1,9 @@
+1. Investigar la diferencia entre ^, ~ o no poner nada en la version de una dependencia.
+2. Agregar la dependencia colors al proyecto del api.
+3. Investigar que es yarn y hacer el proyecto del api de songs con yarn.
+4. Que es Web component, custom tag y React.
+5. Leer las presentaciones:
+    "1.2-yarn"
+    "1.3-babel-webpack"
+    "2-intro-react"
+    "2.1-react-conceptos-clave"

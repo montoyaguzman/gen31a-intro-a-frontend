@@ -1,0 +1,7 @@
+Npx permite ejecutar comandos de npm desde internet
+> npx nodemon index.js
+
+Las instalaciones con -g son globales, no son a nivel package.json del proyecto
+sino a nivel computadora.
+> npm i nodemon -g
+> nodemon index.js 
