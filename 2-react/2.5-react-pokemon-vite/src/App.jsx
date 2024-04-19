@@ -6,6 +6,7 @@ function App() {
 
   return (
     <>
+    {/* Importamos el componente padre de los pokemons */}
     <PokemonList/>
     </>
   )
