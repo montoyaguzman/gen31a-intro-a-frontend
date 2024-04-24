@@ -1,0 +1,25 @@
+scaffold
+componentes
+props
+children
+    <PokemonList/>
+    
+    <PokemonList>
+        <CardPokemon/>
+        <CardPokemon/>
+        <CardPokemon/>
+        <span></span>
+    </PokemonList>
+    
+    
+useState
+
+
+Router/routing => react router-dom
+
+el ciclo de vida de una pantalla/componente => useEffect (hook de react)
+
+
+SSR Server side render
+
+coventional commits
