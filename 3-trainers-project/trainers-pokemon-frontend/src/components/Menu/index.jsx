@@ -1,21 +1,23 @@
 import './index.css';
+import logo from '../../assets/img/logo.png';
+import { Link } from 'react-router-dom';
 
 function Menu() {
     return (
         <nav>
             <div>
-                <img src="" alt="logo de trainers" className='logo-img' />
+                <img src={logo} alt="logo de trainers" className='logo-img' />
             </div>
             <ul className='nav-items'>
-                <a href="/" className='nav-link'>
+                <Link to="/" className='nav-link'>
                     Inicio
-                </a>
-                <a href="/new-trainer" className='nav-link'>
+                </Link>
+                <Link to="/new-trainer" className='nav-link'>
                     Registro entrenador
-                </a>
-                <a href="/about" className='nav-link'>
+                </Link>
+                <Link to="/about" className='nav-link'>
                     Acerca de nosotros
-                </a>
+                </Link>
             </ul>
         </nav>
     )
