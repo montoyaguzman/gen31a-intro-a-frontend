@@ -1,6 +1,8 @@
 import './App.css'
 import { Card } from './components/Card/';
 import { ListCard } from './components/ListCard/';
+import { Menu } from './components/Menu';
+import { SearchBar } from './components/SearchBar';
 import { DetailTrainer } from './pages/DetailTrainer';
 import { FormTrainer } from './pages/FormTrainers';
 import { Home } from './pages/Home';
@@ -10,6 +12,8 @@ function App() {
 
   return (
     <>
+      <Menu />
+      <SearchBar />
       <ListCard />
       <Card />
       <Home />
