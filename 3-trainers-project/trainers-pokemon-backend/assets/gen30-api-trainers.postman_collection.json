@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "3283dc89-2f12-4484-9b8b-0c7c1688bcaa",
+		"name": "gen30-api-trainers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3934865"
+	},
+	"item": [
+		{
+			"name": "listTrainers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/trainers",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"trainers"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "ash",
+							"disabled": true
+						},
+						{
+							"key": "isChampion",
+							"value": "false",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
