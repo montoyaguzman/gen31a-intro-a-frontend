@@ -1,8 +1,18 @@
 import './index.css';
 
+import { SearchBar } from '../../components/SearchBar';
+import { ListCard } from '../../components/ListCard';
+import { Card } from '../../components/Card';
+
 function Home() {
     return (
-        <h1>Home page works!</h1>
+        <>
+            <SearchBar />
+            <ListCard>
+                <Card name="Ash" />
+                <Card name="Misty" />
+            </ListCard>
+        </>
     )
 }
 

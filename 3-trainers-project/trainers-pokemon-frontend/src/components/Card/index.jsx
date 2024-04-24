@@ -1,8 +1,9 @@
 import './index.css';
 
-function Card() {
+function Card(props) {
+    const { name } = props;
     return (
-        <h1>Card component works!</h1>
+        <h1>Yo soy: {name}</h1>
     )
 }
 
