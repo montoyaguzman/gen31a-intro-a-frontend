@@ -11,6 +11,8 @@ function Home() {
             <ListCard>
                 <Card name="Ash" />
                 <Card name="Misty" />
+                <Card name="Misty" />
+                <Card name="Misty" />
             </ListCard>
         </>
     )

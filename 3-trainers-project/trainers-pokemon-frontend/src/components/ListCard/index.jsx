@@ -6,8 +6,9 @@ function ListCard(props) {
 
     return (
         <>
-            <h1>ListCard component works!</h1>
-            {children}
+            <div className="container-list">
+                {children}
+            </div>
         </>
     )
 }

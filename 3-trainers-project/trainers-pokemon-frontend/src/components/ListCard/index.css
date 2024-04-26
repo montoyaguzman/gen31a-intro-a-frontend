@@ -1,0 +1,8 @@
+.container-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    padding: 5px;
+    gap: 1.5rem;
+    margin-inline: auto;
+}
