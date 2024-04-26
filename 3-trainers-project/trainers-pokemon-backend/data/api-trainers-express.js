@@ -359,7 +359,7 @@ const trainers = [
     history: 'Steven, tiene una camiseta color blanco, y tiene otra color violeta por encima, sobre eso tiene una chaqueta color gris oscuro con mangas desde los hombros color violeta, franjas en zig zag color violeta y en sus mangas una decoración color plateado, pantalones grises, una corbata extraña color rojo y zapatos color violeta con una ranja plateada y en sus manos, tiene 4 anillos, color plateado.'
   },
   {
-    id: 1,
+    id: 111,
     name: 'Ash Mostaza',
     originalName: '',
     imgs: {

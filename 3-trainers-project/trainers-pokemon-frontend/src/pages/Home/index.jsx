@@ -33,9 +33,9 @@ function Home() {
 
     // 1. El useEffect no tiene condiciones
     // ===> El callback se ejecuta en cada renderizado
-    // useEffect(() => {
-    //     console.log('useEffect SIN CONDICIONES');
-    // });
+    useEffect(() => {
+        console.log('useEffect SIN CONDICIONES');
+    });
 
     // 2. El useEffect tiene como condicion []
     // ===> Solamente se ejecuta 1 vez
@@ -44,11 +44,11 @@ function Home() {
         getData();
     }, []);
 
-    // 3. El useEffect tienes ciertas condiciones en el [conditon1]
+    // 3. El useEffect tienes ciertas condiciones en el [trainers, numero]
     // ===> Solo se ejecuta cuando condicion1 cambia de valor (o las N condiciones)
-    // useEffect(() => {
-    //     console.log('useEffect CON [conditon1]');
-    // }, [condicion1, condicion2]);
+    useEffect(() => {
+        console.log('useEffect CON [trainers, numero]');
+    }, [trainers, numero]);
 
     return (
         <>
@@ -61,14 +61,20 @@ function Home() {
 
             <ListCard>
                 {
-                    trainers.map((element, index) => {
+                    trainers.length > 0 ? trainers.map((element, index) => {
                         return (
                             <Card
                                 key={element.id}
                                 name={element.name}
+                                image={element.imgs.card}
+                                region={element.region.name}
+                                rank={element.rank}
+                                team={element.team}
+
                             />
                         )
                     })
+                        : <h1>No hay trainers disponibles</h1>
                 }
             </ListCard>
 
