@@ -1,6 +1,8 @@
 import './index.css';
 
-function Card() {
+function Card(props) {
+
+    const { name } = props;
 
     // { image, region, rank, name, team }
 
@@ -24,7 +26,7 @@ function Card() {
                             <p className="rank-tag">99</p>
                         </div>
                     </div>
-                    <h2 className="title">ash</h2>
+                    <h2 className="title">{name}</h2>
 
                     <div className="team">
                         <h3 className="team-label">Equipo</h3>
