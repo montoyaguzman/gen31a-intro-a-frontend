@@ -1,8 +1,12 @@
+import RoutesIndex from "./routes/RoutesIndex"
+import Header from "./layouts/Header"
+
 function App() {
 
   return (
     <>
-      <h1>Hola a todos</h1>
+      <Header />
+      <RoutesIndex />
     </>
   )
 }
