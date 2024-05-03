@@ -28,6 +28,14 @@ const Header = () => {
                 Dashboard
             </NavLink>
           </li>
+          <li className="header__list-item">
+            <NavLink
+                to="/about"
+                className={({ isActive })=>linkIsActive(isActive)}
+            >
+                About
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </header>

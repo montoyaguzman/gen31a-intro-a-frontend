@@ -5,6 +5,7 @@ const RoutesIndex = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/about" element={<h1>Sobre mi</h1>} />
       <Route path="*" element={<h1>Pagina no disponible</h1>} />
     </Routes>
   );
