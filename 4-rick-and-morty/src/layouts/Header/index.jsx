@@ -2,6 +2,8 @@ import { NavLink } from "react-router-dom";
 import './header.css'
 
 const Header = () => {
+  // Función para cambiar el estilo del link activo
+  // https://reactrouter.com/en/main/components/nav-link#navlink
   const linkIsActive = (isActive) => {
     return isActive ? 'header__item-link header__item-link--is--active' : 'header__item-link'
   }  
